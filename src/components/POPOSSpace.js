@@ -6,11 +6,16 @@ import '../stylesheets/POPOSSpace.css';
 
 function POPOSSpace(props) {
   // add props here
-  const { title, image, author, credits } = props
+  const { title, foreground, background, author, credits } = props
   return (
     <div className="POPOSSpace">
-      <img src={`${process.env.PUBLIC_URL}images/${image}`} width="300" height="300" alt="Hello" />
-      <h3>{title}</h3>
+      <a href="#">
+        <h3>{title}</h3>
+        <div className="parent">
+          <img className="background" src={`${process.env.PUBLIC_URL}images/${background}`} width="300" alt="Hello" />
+          <img className="foreground" src={`${process.env.PUBLIC_URL}images/${foreground}`} width="300" alt="Hello" />
+        </div>
+      </a>
       <div>by: {author}</div>
       <div>image credits: {credits}</div>
     </div>

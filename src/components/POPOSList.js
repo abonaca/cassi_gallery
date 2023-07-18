@@ -9,14 +9,15 @@ function POPOSList() {
 
   const spaces = data.map((obj) => {
     // Deconstruct obj into properties
-    const { title, author, background, credits } = obj
+    const { title, author, foreground, background, credits } = obj
 
     return (
       <POPOSSpace
         key={title} // The title could be a key
         title={title}
         author={author}
-        image={background}
+        background={background}
+        foreground={foreground}
         credits={credits}
       />
     )
