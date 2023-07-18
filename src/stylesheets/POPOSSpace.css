@@ -1,0 +1,16 @@
+/* src/POPOSSpace.css */
+
+.POPOSSpace {
+  width: 100%;
+  text-align: center;
+  color: #555;
+}
+
+.POPOSSpace h1 {
+  color: #222;
+}
+
+.POPOSSpace > img {
+  width: 90%;
+  height: auto;
+}

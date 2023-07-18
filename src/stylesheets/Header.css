@@ -1,0 +1,16 @@
+/*  src/stylesheets/Header.css  */
+.Title {
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: baseline;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: rgb(20, 100, 20);
+  color: #fff;
+}
+
+.Title-Subtitle {
+  color: rgba(255, 255, 255, 0.75);
+}

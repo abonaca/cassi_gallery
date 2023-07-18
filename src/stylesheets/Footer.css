@@ -1,0 +1,16 @@
+/*  src/stylesheets/Footer.css  */
+.Footer {
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+  justify-content: center;
+  align-items: baseline;
+  padding: 0.5em;
+  margin-top: 2em;
+  background-color: rgb(5, 40, 5);
+  color: #fff;
+}
+
+.Footer p {
+  color: rgba(255, 255, 255, 0.75);
+}
