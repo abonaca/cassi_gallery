@@ -8,11 +8,16 @@ import data from '../gallery_entries.json'
 function POPOSList() {
 
   const spaces = data.map((obj) => {
+    // Deconstruct obj into properties
+    const { title, author, background, credits } = obj
+
     return (
       <POPOSSpace
-        name={obj.title}
-        address={obj.author}
-        image={obj.background}
+        key={title} // The title could be a key
+        title={title}
+        author={author}
+        image={background}
+        credits={credits}
       />
     )
   })
